@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30038D12B9B6C8B006DD2D0 /* QuestionData2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30038D02B9B6C8B006DD2D0 /* QuestionData2ViewController.swift */; };
+		A328A0142B7931FB0068E572 /* QuestionData1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328A0132B7931FB0068E572 /* QuestionData1ViewController.swift */; };
+		A33E482C2AF518F200072874 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E482B2AF518F200072874 /* DataManager.swift */; };
+		A37602072B1F1FB500D8840A /* QuestionData3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37602062B1F1FB500D8840A /* QuestionData3ViewController.swift */; };
+		A37602092B22038500D8840A /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37602082B22038500D8840A /* QuizManager.swift */; };
+		A3CCD3452ADE5E1C00BAC6D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD3442ADE5E1C00BAC6D6 /* LoginViewController.swift */; };
+		A3CCD3472ADED36700BAC6D6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD3462ADED36700BAC6D6 /* HomeViewController.swift */; };
+		A3DF02FB2ACD1FB9009F0FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF02FA2ACD1FB9009F0FE3 /* AppDelegate.swift */; };
+		A3DF02FD2ACD1FB9009F0FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF02FC2ACD1FB9009F0FE3 /* SceneDelegate.swift */; };
+		A3DF03022ACD1FB9009F0FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DF03002ACD1FB9009F0FE3 /* Main.storyboard */; };
+		A3DF03052ACD1FB9009F0FE3 /* Edu_Med.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3DF03032ACD1FB9009F0FE3 /* Edu_Med.xcdatamodeld */; };
+		A3DF03072ACD1FBD009F0FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DF03062ACD1FBD009F0FE3 /* Assets.xcassets */; };
+		A3DF030A2ACD1FBD009F0FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DF03082ACD1FBD009F0FE3 /* LaunchScreen.storyboard */; };
+		A3DF03162AD2AB14009F0FE3 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF03152AD2AB14009F0FE3 /* Questions.swift */; };
+		A3DF03182AD2AF85009F0FE3 /* Questiondata1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF03172AD2AF85009F0FE3 /* Questiondata1.swift */; };
+		A3DF031A2AD2AF9C009F0FE3 /* Questiondata2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF03192AD2AF9C009F0FE3 /* Questiondata2.swift */; };
+		A3DF031C2AD2AFB4009F0FE3 /* Questiondata3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF031B2AD2AFB4009F0FE3 /* Questiondata3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A30038D02B9B6C8B006DD2D0 /* QuestionData2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData2ViewController.swift; sourceTree = "<group>"; };
+		A328A0132B7931FB0068E572 /* QuestionData1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData1ViewController.swift; sourceTree = "<group>"; };
+		A33E482B2AF518F200072874 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A37602062B1F1FB500D8840A /* QuestionData3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData3ViewController.swift; sourceTree = "<group>"; };
+		A37602082B22038500D8840A /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		A3CCD3442ADE5E1C00BAC6D6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A3CCD3462ADED36700BAC6D6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A3DF02F72ACD1FB9009F0FE3 /* Edu-Med.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edu-Med.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DF02FA2ACD1FB9009F0FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3DF02FC2ACD1FB9009F0FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3DF03012ACD1FB9009F0FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3DF03042ACD1FB9009F0FE3 /* Edu_Med.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Edu_Med.xcdatamodel; sourceTree = "<group>"; };
+		A3DF03062ACD1FBD009F0FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3DF03092ACD1FBD009F0FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3DF030B2ACD1FBD009F0FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DF03152AD2AB14009F0FE3 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		A3DF03172AD2AF85009F0FE3 /* Questiondata1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questiondata1.swift; sourceTree = "<group>"; };
+		A3DF03192AD2AF9C009F0FE3 /* Questiondata2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questiondata2.swift; sourceTree = "<group>"; };
+		A3DF031B2AD2AFB4009F0FE3 /* Questiondata3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questiondata3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3DF02F42ACD1FB9009F0FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3DF02EE2ACD1FB9009F0FE3 = {
+			isa = PBXGroup;
+			children = (
+				A3DF02F92ACD1FB9009F0FE3 /* Edu-Med */,
+				A3DF02F82ACD1FB9009F0FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3DF02F82ACD1FB9009F0FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF02F72ACD1FB9009F0FE3 /* Edu-Med.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3DF02F92ACD1FB9009F0FE3 /* Edu-Med */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF03142AD2A7B0009F0FE3 /* Model */,
+				A3DF03122AD2A766009F0FE3 /* View */,
+				A3DF03132AD2A77D009F0FE3 /* Controller */,
+				A3DF02FA2ACD1FB9009F0FE3 /* AppDelegate.swift */,
+				A3DF02FC2ACD1FB9009F0FE3 /* SceneDelegate.swift */,
+				A3DF030B2ACD1FBD009F0FE3 /* Info.plist */,
+			);
+			path = "Edu-Med";
+			sourceTree = "<group>";
+		};
+		A3DF03122AD2A766009F0FE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF03062ACD1FBD009F0FE3 /* Assets.xcassets */,
+				A3DF03002ACD1FB9009F0FE3 /* Main.storyboard */,
+				A3DF03082ACD1FBD009F0FE3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3DF03132AD2A77D009F0FE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3CCD3442ADE5E1C00BAC6D6 /* LoginViewController.swift */,
+				A3CCD3462ADED36700BAC6D6 /* HomeViewController.swift */,
+				A328A0132B7931FB0068E572 /* QuestionData1ViewController.swift */,
+				A30038D02B9B6C8B006DD2D0 /* QuestionData2ViewController.swift */,
+				A37602062B1F1FB500D8840A /* QuestionData3ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3DF03142AD2A7B0009F0FE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF03032ACD1FB9009F0FE3 /* Edu_Med.xcdatamodeld */,
+				A3DF03152AD2AB14009F0FE3 /* Questions.swift */,
+				A3DF03172AD2AF85009F0FE3 /* Questiondata1.swift */,
+				A3DF03192AD2AF9C009F0FE3 /* Questiondata2.swift */,
+				A3DF031B2AD2AFB4009F0FE3 /* Questiondata3.swift */,
+				A33E482B2AF518F200072874 /* DataManager.swift */,
+				A37602082B22038500D8840A /* QuizManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3DF02F62ACD1FB9009F0FE3 /* Edu-Med */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DF030E2ACD1FBD009F0FE3 /* Build configuration list for PBXNativeTarget "Edu-Med" */;
+			buildPhases = (
+				A3DF02F32ACD1FB9009F0FE3 /* Sources */,
+				A3DF02F42ACD1FB9009F0FE3 /* Frameworks */,
+				A3DF02F52ACD1FB9009F0FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edu-Med";
+			productName = "Edu-Med";
+			productReference = A3DF02F72ACD1FB9009F0FE3 /* Edu-Med.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3DF02EF2ACD1FB9009F0FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A3DF02F62ACD1FB9009F0FE3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A3DF02F22ACD1FB9009F0FE3 /* Build configuration list for PBXProject "Edu-Med" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3DF02EE2ACD1FB9009F0FE3;
+			productRefGroup = A3DF02F82ACD1FB9009F0FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3DF02F62ACD1FB9009F0FE3 /* Edu-Med */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3DF02F52ACD1FB9009F0FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DF030A2ACD1FBD009F0FE3 /* LaunchScreen.storyboard in Resources */,
+				A3DF03072ACD1FBD009F0FE3 /* Assets.xcassets in Resources */,
+				A3DF03022ACD1FB9009F0FE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3DF02F32ACD1FB9009F0FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33E482C2AF518F200072874 /* DataManager.swift in Sources */,
+				A3DF03182AD2AF85009F0FE3 /* Questiondata1.swift in Sources */,
+				A328A0142B7931FB0068E572 /* QuestionData1ViewController.swift in Sources */,
+				A30038D12B9B6C8B006DD2D0 /* QuestionData2ViewController.swift in Sources */,
+				A3DF02FB2ACD1FB9009F0FE3 /* AppDelegate.swift in Sources */,
+				A3DF031C2AD2AFB4009F0FE3 /* Questiondata3.swift in Sources */,
+				A3DF02FD2ACD1FB9009F0FE3 /* SceneDelegate.swift in Sources */,
+				A3DF03162AD2AB14009F0FE3 /* Questions.swift in Sources */,
+				A3CCD3472ADED36700BAC6D6 /* HomeViewController.swift in Sources */,
+				A3DF031A2AD2AF9C009F0FE3 /* Questiondata2.swift in Sources */,
+				A37602092B22038500D8840A /* QuizManager.swift in Sources */,
+				A37602072B1F1FB500D8840A /* QuestionData3ViewController.swift in Sources */,
+				A3CCD3452ADE5E1C00BAC6D6 /* LoginViewController.swift in Sources */,
+				A3DF03052ACD1FB9009F0FE3 /* Edu_Med.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3DF03002ACD1FB9009F0FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DF03012ACD1FB9009F0FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3DF03082ACD1FBD009F0FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DF03092ACD1FBD009F0FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3DF030C2ACD1FBD009F0FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3DF030D2ACD1FBD009F0FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3DF030F2ACD1FBD009F0FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SGX8Q5Q2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Edu-Med/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Edu-Med";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessing.Edu-Med";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3DF03102ACD1FBD009F0FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SGX8Q5Q2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Edu-Med/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Edu-Med";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessing.Edu-Med";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3DF02F22ACD1FB9009F0FE3 /* Build configuration list for PBXProject "Edu-Med" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DF030C2ACD1FBD009F0FE3 /* Debug */,
+				A3DF030D2ACD1FBD009F0FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DF030E2ACD1FBD009F0FE3 /* Build configuration list for PBXNativeTarget "Edu-Med" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DF030F2ACD1FBD009F0FE3 /* Debug */,
+				A3DF03102ACD1FBD009F0FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3DF03032ACD1FB9009F0FE3 /* Edu_Med.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3DF03042ACD1FB9009F0FE3 /* Edu_Med.xcdatamodel */,
+			);
+			currentVersion = A3DF03042ACD1FB9009F0FE3 /* Edu_Med.xcdatamodel */;
+			path = Edu_Med.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3DF02EF2ACD1FB9009F0FE3 /* Project object */;
+}
